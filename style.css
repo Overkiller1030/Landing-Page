@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  align-self: flex-start;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 800;
+  border-radius: 5px;
+  border: #3882f6;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+li {
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header, .nav-links, .media{
+  background-color: #1f2937;
+  display: flex;
+}
+
+.header, .nav-links {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding: 10px 150px;
+}
+
+.nav-links{
+  gap: 30px;
+
+}
+
+.title {
+   font-size: 24px;
+   color: #f9faf8;
+   font-weight: bold;
+}
+
+.media {
+  padding: 100px 0px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  width: 400px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8
+}
+
+.hero-secondary {
+  font-size: 18px;
+  color: #e5e7eb
+}
+
+.heading2 {
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.top-sellers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.top-sellers img {
+  width: 180px;
+  border-radius: 10px;
+}
+
+.top-selling-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px #3882f6 solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 100px;
+}
+
+.top-sell-info {
+  color: #485362;
+  text-align: center;
+  padding-top: 10px;
+}
+
+button.buy-now {
+  margin-left: auto;
+  margin-right: auto;
+}
