@@ -1,11 +1,86 @@
+/* Imported Roboto from Google Fonts */
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* These fonts are style fonts */
+
 * {
   padding: 0px;
   margin: 0;
 }
 
-
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto" ,Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -53,7 +128,7 @@ img {
 }
 
 .header {
-  padding: 10px 150px;
+  padding: 25px 150px;
 }
 
 .nav-links{
@@ -71,12 +146,17 @@ img {
   padding: 100px 0px;
   gap: 50px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .image {
   display: flex;
   width: 400px;
   align-items: center;
+}
+
+.image img {
+  border-radius: 12px;
 }
 
 .content {
@@ -109,6 +189,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-flow: row wrap;
 }
 
 .top-sellers img {
@@ -123,7 +204,7 @@ img {
   border: 3px #3882f6 solid;
   border-radius: 10px;
   padding: 5px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .top-sell-info {
@@ -135,4 +216,79 @@ img {
 button.buy-now {
   margin-left: auto;
   margin-right: auto;
+}
+
+.quotations {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 100px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  color: #1f2937;
+  padding: 10px;
+  max-width: 800px;;
+  width: auto;
+  flex-flow: column wrap;
+}
+
+.speaker {
+  font-size: 18px;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 400;
+  color: black;
+  padding: 10px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-container {
+  width: 900px;
+  display: flex;
+  background-color: #3882f6;
+  justify-content: space-around;
+  color: #e5e7eb;
+  padding: 30px 30px;
+  margin: 100px;
+  border-radius: 8px;
+  flex-flow: row wrap;
+}
+
+.heading3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.caption3 {
+  font-weight: 300;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  margin-top: auto;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.signature {
+  padding: 40px;
 }
